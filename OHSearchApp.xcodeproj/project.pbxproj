@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		31A4CA7E2373EAEC00066E49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4CA7D2373EAEC00066E49 /* AppDelegate.swift */; };
-		31A4CA802373EAEC00066E49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4CA7F2373EAEC00066E49 /* ViewController.swift */; };
+		31A4CA802373EAEC00066E49 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4CA7F2373EAEC00066E49 /* MainViewController.swift */; };
 		31A4CA832373EAEC00066E49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A4CA812373EAEC00066E49 /* Main.storyboard */; };
 		31A4CA852373EAEE00066E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31A4CA842373EAEE00066E49 /* Assets.xcassets */; };
 		31A4CA882373EAEE00066E49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A4CA862373EAEE00066E49 /* LaunchScreen.storyboard */; };
 		31A4CA932373EAEE00066E49 /* OHSearchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4CA922373EAEE00066E49 /* OHSearchAppTests.swift */; };
 		31A4CA9E2373EAEE00066E49 /* OHSearchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4CA9D2373EAEE00066E49 /* OHSearchAppUITests.swift */; };
+		31A4CAB32373FCC900066E49 /* blogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4CAB22373FCC900066E49 /* blogModel.swift */; };
+		31A4CAB823740B0600066E49 /* Noimage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 31A4CAB723740B0600066E49 /* Noimage.jpeg */; };
+		31A4CABA23740B2400066E49 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 31A4CAB923740B2300066E49 /* camera.png */; };
+		31A4CABD23740EFB00066E49 /* define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4CABC23740EFB00066E49 /* define.swift */; };
+		E2C4831DF7DC08CE78B919C5 /* libPods-OHSearchApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8362EC6DEAD88F4469354C4C /* libPods-OHSearchApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		31A4CA7A2373EAEC00066E49 /* OHSearchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OHSearchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A4CA7D2373EAEC00066E49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31A4CA7F2373EAEC00066E49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31A4CA7F2373EAEC00066E49 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		31A4CA822373EAEC00066E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31A4CA842373EAEE00066E49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31A4CA872373EAEE00066E49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		31A4CA992373EAEE00066E49 /* OHSearchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OHSearchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A4CA9D2373EAEE00066E49 /* OHSearchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OHSearchAppUITests.swift; sourceTree = "<group>"; };
 		31A4CA9F2373EAEE00066E49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31A4CAB22373FCC900066E49 /* blogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blogModel.swift; sourceTree = "<group>"; };
+		31A4CAB723740B0600066E49 /* Noimage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Noimage.jpeg; sourceTree = "<group>"; };
+		31A4CAB923740B2300066E49 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		31A4CABC23740EFB00066E49 /* define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = define.swift; sourceTree = "<group>"; };
+		8362EC6DEAD88F4469354C4C /* libPods-OHSearchApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OHSearchApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F7CA35F87F225D6498C470 /* Pods-OHSearchApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHSearchApp.release.xcconfig"; path = "Target Support Files/Pods-OHSearchApp/Pods-OHSearchApp.release.xcconfig"; sourceTree = "<group>"; };
+		EFACADE55D507AED4F656A8C /* Pods-OHSearchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHSearchApp.debug.xcconfig"; path = "Target Support Files/Pods-OHSearchApp/Pods-OHSearchApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C4831DF7DC08CE78B919C5 /* libPods-OHSearchApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,8 @@
 				31A4CA912373EAEE00066E49 /* OHSearchAppTests */,
 				31A4CA9C2373EAEE00066E49 /* OHSearchAppUITests */,
 				31A4CA7B2373EAEC00066E49 /* Products */,
+				8CB5BD21ED124CC9725C1744 /* Pods */,
+				9E64A37110C8CED9C5E3D922 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +112,13 @@
 		31A4CA7C2373EAEC00066E49 /* OHSearchApp */ = {
 			isa = PBXGroup;
 			children = (
+				31A4CAAC2373F4A000066E49 /* View */,
+				31A4CAAF2373F4C400066E49 /* Model */,
+				31A4CAAD2373F4A900066E49 /* ViewModel */,
+				31A4CAB12373F4EF00066E49 /* Service */,
+				31A4CAAE2373F4B300066E49 /* Extensions */,
+				31A4CAB523740AED00066E49 /* Resource */,
 				31A4CA7D2373EAEC00066E49 /* AppDelegate.swift */,
-				31A4CA7F2373EAEC00066E49 /* ViewController.swift */,
 				31A4CA812373EAEC00066E49 /* Main.storyboard */,
 				31A4CA842373EAEE00066E49 /* Assets.xcassets */,
 				31A4CA862373EAEE00066E49 /* LaunchScreen.storyboard */,
@@ -125,6 +145,95 @@
 			path = OHSearchAppUITests;
 			sourceTree = "<group>";
 		};
+		31A4CAAB2373F48800066E49 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				31A4CA7F2373EAEC00066E49 /* MainViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		31A4CAAC2373F4A000066E49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31A4CAB02373F4D800066E49 /* Cell */,
+				31A4CAAB2373F48800066E49 /* ViewController */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31A4CAAD2373F4A900066E49 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		31A4CAAE2373F4B300066E49 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				31A4CABC23740EFB00066E49 /* define.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		31A4CAAF2373F4C400066E49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31A4CAB22373FCC900066E49 /* blogModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31A4CAB02373F4D800066E49 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		31A4CAB12373F4EF00066E49 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		31A4CAB523740AED00066E49 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				31A4CAB623740AF700066E49 /* icon */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		31A4CAB623740AF700066E49 /* icon */ = {
+			isa = PBXGroup;
+			children = (
+				31A4CAB923740B2300066E49 /* camera.png */,
+				31A4CAB723740B0600066E49 /* Noimage.jpeg */,
+			);
+			path = icon;
+			sourceTree = "<group>";
+		};
+		8CB5BD21ED124CC9725C1744 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFACADE55D507AED4F656A8C /* Pods-OHSearchApp.debug.xcconfig */,
+				84F7CA35F87F225D6498C470 /* Pods-OHSearchApp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E64A37110C8CED9C5E3D922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8362EC6DEAD88F4469354C4C /* libPods-OHSearchApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +241,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31A4CAA22373EAEE00066E49 /* Build configuration list for PBXNativeTarget "OHSearchApp" */;
 			buildPhases = (
+				DA4163A05D51A275CDDF7B3A /* [CP] Check Pods Manifest.lock */,
 				31A4CA762373EAEC00066E49 /* Sources */,
 				31A4CA772373EAEC00066E49 /* Frameworks */,
 				31A4CA782373EAEC00066E49 /* Resources */,
@@ -229,9 +339,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A4CAB823740B0600066E49 /* Noimage.jpeg in Resources */,
 				31A4CA882373EAEE00066E49 /* LaunchScreen.storyboard in Resources */,
 				31A4CA852373EAEE00066E49 /* Assets.xcassets in Resources */,
 				31A4CA832373EAEC00066E49 /* Main.storyboard in Resources */,
+				31A4CABA23740B2400066E49 /* camera.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +363,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DA4163A05D51A275CDDF7B3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OHSearchApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		31A4CA762373EAEC00066E49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31A4CA802373EAEC00066E49 /* ViewController.swift in Sources */,
+				31A4CA802373EAEC00066E49 /* MainViewController.swift in Sources */,
 				31A4CA7E2373EAEC00066E49 /* AppDelegate.swift in Sources */,
+				31A4CABD23740EFB00066E49 /* define.swift in Sources */,
+				31A4CAB32373FCC900066E49 /* blogModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +569,7 @@
 		};
 		31A4CAA32373EAEE00066E49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFACADE55D507AED4F656A8C /* Pods-OHSearchApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +588,7 @@
 		};
 		31A4CAA42373EAEE00066E49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F7CA35F87F225D6498C470 /* Pods-OHSearchApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
